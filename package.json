@@ -1,0 +1,23 @@
+{
+  "name": "cognito-user-pool",
+  "version": "1.0.0",
+  "description": "Repo used to quickly create a Cognito User Pool & apply to a website/source",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanTPainter/cognito-user-pool.git"
+  },
+  "keywords": [
+    "AWS",
+    "Cognito",
+    "User",
+    "Pool"
+  ],
+  "author": "Ethan T. Painter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EthanTPainter/cognito-user-pool/issues"
+  },
+  "homepage": "https://github.com/EthanTPainter/cognito-user-pool#readme"
+}

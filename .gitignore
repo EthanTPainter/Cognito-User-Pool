@@ -1,0 +1,8 @@
+node_modules/
+.params
+dist/
+.env
+*.swp
+.serverless
+*.package.yaml
+*.js
