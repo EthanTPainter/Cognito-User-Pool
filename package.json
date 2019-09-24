@@ -3,7 +3,17 @@
   "version": "1.0.0",
   "description": "Repo used to quickly create a Cognito User Pool & apply to a website/source",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "deploy": "./bin/deploy.sh .deploy.template",
+    "deploy:pool": "./bin/deploy-pool.sh",
+    "deploy:users": "./bin/deploy-users.sh",
+    "release": "standard-version",
+    "release:dry": "standard-version --dry-run",
+    "release:prerelease": "standard-version --prerelease",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EthanTPainter/cognito-user-pool.git"
@@ -19,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/EthanTPainter/cognito-user-pool/issues"
   },
-  "homepage": "https://github.com/EthanTPainter/cognito-user-pool#readme"
+  "homepage": "https://github.com/EthanTPainter/cognito-user-pool#readme",
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  }
 }
