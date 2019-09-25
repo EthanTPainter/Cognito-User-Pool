@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "username": "ethan.painter",
+      "email": "ethan.painter@gmail.com",
+      "given_name": "Ethan",
+      "family_name": "Painter",
+      "client_id": "21",
+      "user_pool_id": "us-east-1_aaaaaaaaa"
+    }
+  ]
+}

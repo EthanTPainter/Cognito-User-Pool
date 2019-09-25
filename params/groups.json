@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {
+      "group_name": "cool-dudes-1",
+      "user_pool_id": "us-east-1_aaaaaaaaa"
+    },
+    {
+      "group_name": "cool-dudes-2",
+      "user_pool_id": "us-east-1_aaaaaaaaa"
+    }
+  ]
+}
