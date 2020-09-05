@@ -6,7 +6,8 @@
   "scripts": {
     "deploy": "./bin/deploy.sh .deploy.template",
     "deploy:pool": "./bin/deploy-pool.sh",
-    "deploy:users": "./bin/deploy-users.sh",
+    "deploy:users": "./bin/deploy-users.sh ./singlecomm/users/users.json",
+    "deploy:groups": "./bin/deploy-groups.sh ./singlecomm/groups/groups.json",
     "release": "standard-version",
     "release:dry": "standard-version --dry-run",
     "release:prerelease": "standard-version --prerelease",

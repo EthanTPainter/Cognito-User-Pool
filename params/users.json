@@ -6,6 +6,7 @@
       "given_name": "Ethan",
       "family_name": "Painter",
       "client_id": "21",
+      "group_name": "new-group",
       "user_pool_id": "us-east-1_aaaaaaaaa"
     }
   ]
